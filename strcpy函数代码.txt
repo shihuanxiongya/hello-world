@@ -19,5 +19,6 @@ char* strcpy(char *strDest, const char* strSrc)
     return p;
 
 }
+<<<<<<< HEAD
 
 //本地编辑
