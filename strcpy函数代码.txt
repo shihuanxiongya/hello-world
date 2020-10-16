@@ -1,0 +1,21 @@
+char* strcpy(char *strDest, const char* strSrc)
+
+{
+
+    char *p=NULL;
+
+    if(strDest == NULL || strSrc == NULL)
+
+    {
+
+        return NULL;
+
+    }
+
+    p = strDest;
+
+    while((*strDest++ = *strSrc ++) != '\0');
+
+    return p;
+
+}
